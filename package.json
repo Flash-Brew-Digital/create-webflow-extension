@@ -1,7 +1,7 @@
 {
   "name": "create-webflow-extension",
   "displayName": "Create Webflow Extension",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Scaffold a new Webflow Designer Extension project with a built-in template.",
   "keywords": [
     "cli",
