@@ -95,6 +95,9 @@ export async function scaffoldProject(config: ProjectConfig): Promise<void> {
       const isYarn1 = stdout.startsWith("1.");
       pmx = isYarn1 ? "npx" : "yarn";
       pmxArgs = isYarn1 ? [] : ["dlx"];
+    } else if (config.pm === "pnpm") {
+      pmx = "pnpm";
+      pmxArgs = ["dlx"];
     } else {
       pmx = config.pm;
     }
