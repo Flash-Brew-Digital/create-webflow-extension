@@ -53,7 +53,7 @@
     "oxlint-tsgolint": "^0.11.4",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
-    "ultracite": "7.0.6",
+    "ultracite": "7.2.1",
     "vitest": "^4.0.16"
   },
   "engines": {
