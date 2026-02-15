@@ -50,7 +50,7 @@
     "@types/node": "^25.0.3",
     "oxfmt": "^0.21.0",
     "oxlint": "^1.36.0",
-    "oxlint-tsgolint": "^0.10.1",
+    "oxlint-tsgolint": "^0.11.4",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "ultracite": "7.0.6",
